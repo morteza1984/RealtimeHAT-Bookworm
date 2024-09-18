@@ -15,17 +15,18 @@ chmod +x install.sh
 ```
 Contact InnoRoute to obtain a bitstream for your RT-HAT devices.
 Copy the files into /usr/share/InnoRoute 
-Reboot your RT-HAT
-After login wait up to 1 minut
+Reboot your RT-HAT.
+After login wait up to 1 minute.
 ```
 
 ## Testing
 
 ```
-Connect Port#1 of your Realtime-HAT to the Ethernet port of your PI
-Connect Port#0 (RT0) and to a NIC of a PC that has tcpdump or wireshark or similar tools
-Both leds of RT0 must be on on now
-For sending test frames from RT0 to the PC run:sudo mz RT0 -c10000  -d 20m -A rand  -a rand -b ff:ff:ff:ff:ff:ff  -p 100 "81:00:e0:01:22:f0"
+Connect Port#1 of your Realtime-HAT to the Ethernet port of your Pi.
+Connect Port#0 (RT0) to a NIC of a PC that has tcpdump or wireshark or similar tools.
+Both leds of RT0 must be on now.
+For sending test frames from RT0 to the PC run:
+sudo mz RT0 -c10000  -d 20m -A rand  -a rand -b ff:ff:ff:ff:ff:ff  -p 100 "81:00:e0:01:22:f0"
 
 
 
