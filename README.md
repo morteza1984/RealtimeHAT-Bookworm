@@ -1,4 +1,4 @@
-Real-Time HAT™
+Real-Time HAT™ for Bookworm 32bit
 ===
 
 
