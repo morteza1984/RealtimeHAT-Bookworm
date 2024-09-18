@@ -13,7 +13,7 @@ chmod +x install.sh
 ## Copy bitstream
 
 ```
-Contact InnoRoute to obtain a bitstream for your RT-HAT devices.
+Contact InnoRoute to obtain bitstream files for your RT-HAT devices.
 Copy the files into /usr/share/InnoRoute 
 Reboot your RT-HAT.
 After login wait up to 1 minute.
